@@ -12,12 +12,12 @@
     align-items: center;
     justify-content: center;
 }
-.Calculator{
+.Calcuator{
     background-color: #3a4452;
     padding: 20px;
     border-radius:10px ;
 }
-.Calculator form input{
+.Calcuator form input{
     border: 0;
     outline: 0;
     width: 60px;
@@ -30,15 +30,19 @@
     cursor: pointer;
     margin: 10px;
 }
- /* form .display{
-display: flex;
-justify-content: flex-end;
-margin: 20px 0;
-}  */
-/* form .display input{
+ form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+ }
+ form .display input{
     text-align: right;
     flex: 1;
     font-size: 45px;
     box-shadow: none;
-} */
+ }
+ form input.equal{
+    width: 145px;
+ }
+
  
